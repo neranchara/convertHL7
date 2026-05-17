@@ -19,6 +19,14 @@ test-results
 .env.*
 !.env.example
 
+# Tests and Test Configurations
+e2e/
+playwright.config.ts
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
